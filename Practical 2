@@ -1,0 +1,32 @@
+# implementation of python basic libraries such as math
+
+import math
+
+# basic arithmetic operations
+print("Square root of 25:",math.sqrt(25))
+print("Power 2^3:",math.pow(2,3))
+print("exponential fuction:",math.exp(2))
+
+# Trigonometric function (angles in radians)
+print("sine of 90 degrees:",math.sin(math.pi/2))
+print("Cosine of 0 degrees:",math.cos(0))
+print("Tangent of 45 degrees:",math.tan(math.pi/4))
+
+# Logarithmic function
+print("Logarithm base 2 of 16:",math.log(16,2))
+print("Logarithm base 10 of 100:",math.log10(100))
+
+# constants
+print("PI:",math.pi)
+print("Euler's number:",math.e)
+
+# other function
+print("Ceil (round up)",math.ceil(4.3))
+print("Floor (round down)",math.floor(4.9))
+print("Factorial of 5:",math.factorial(5))
+
+# Trigonometric function can also be used with degrees by converting
+angle_degrees=45
+angle_radians=math.radians(angle_degrees)
+print("sine of 45 degrees:",math.sin(angle_radians))
+
