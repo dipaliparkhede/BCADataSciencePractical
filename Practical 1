@@ -1,0 +1,47 @@
+# Implementation of python basic libraries such as numpy
+import numpy as np
+
+# Creating array
+arr1=np.array([1,2,3,4,5])
+arr2=np.array([[1,2,3],[4,5,6]])
+
+print("array 1:",arr1)
+print("array 2:",arr2)
+
+# Basic operation on arrays
+sum_arr=arr1+arr1
+print("sum of arrays:",sum_arr)
+
+# Element wise operations
+product_arr=arr1*2
+print("product of array 1 with 2:",product_arr)
+
+# sum of array elements Performing Using Operations
+print("sum of all array elements:",arr1.sum())
+
+# Matrix multiplication
+mat_product=np.dot(arr2,np.array([[2],[2],[2]]))
+print("Matrix product:",mat_product)
+
+# Statistical operations
+mean_value=np.mean(arr1)
+print("Mean of array 1:",mean_value)
+
+std_deviation=np.std(arr1)
+print("Standard deviation of array 1:",std_deviation)
+
+# Generating sequences
+sequence=np.arange(0,10,2)
+print("Sequence:",sequence)
+
+# Reshaping arrays
+reshaped_arr=arr1.reshape((5,1))
+print("Reshaped array:",reshaped_arr)
+
+# Indexing and slicing
+print("First element of array 1:",arr1[0])
+print("first row of array 2:",arr2[0:,])
+
+# Random numbers
+random_arr=np.random.rand(3,3)
+print("Random 3*3 array:",random_arr)
